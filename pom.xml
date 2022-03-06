@@ -44,7 +44,21 @@
         <version>2.3.2</version>
     </dependency>
     
-    
+    <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+<dependency>
+    <groupId>jstl</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+ 
+ 
+ <!-- https://mvnrepository.com/artifact/org.apache.tiles/tiles-el -->
+<dependency>
+    <groupId>org.apache.tiles</groupId>
+    <artifactId>tiles-el</artifactId>
+    <version>3.0.8</version>
+</dependency>
+ 
     
   </dependencies>
   <build>
