@@ -20,10 +20,10 @@
   <body>
          
          
-         <c:forEach var="company" items="${ LC }" >
+         <c:forEach var="candidate" items="${ AC }" >
 				
-					<h2> <c:out value= "${company.getCom_id()}" > adhsf </c:out> </h2>
-					<h2><c:out value="${company.getCom_name()}"></c:out></h2> 				
+					<h2> <c:out value= "${candidate.getCand_id()}" > adhsf </c:out> </h2>
+					<h2><c:out value="${candidate.getCand_name()}"></c:out></h2> 				
 					<br><br>
 				
 				<br>
